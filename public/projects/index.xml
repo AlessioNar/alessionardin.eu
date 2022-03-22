@@ -8,6 +8,44 @@
     <language>en-US</language>
     <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate><atom:link href="https://alessionardin.eu/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The political reach of US Politicians and Celebrities on Twitter: who is the most influential?</title>
+      <link>https://alessionardin.eu/projects/twitter-celebrities-politicians/</link>
+      <pubDate>Tue, 22 Mar 2022 15:36:49 +0100</pubDate>
+      
+      <guid>https://alessionardin.eu/projects/twitter-celebrities-politicians/</guid>
+      <description>About In the age of technology, millions of social media users eagerly absorb hundreds of Twitter messages from their favorite celebrities and politicians on a daily basis… but how do these widely-followed individuals influence one another? Our research aims to analyze the social networks of high-profile celebrities and American politicians, evaluating which group influences the other.
+About our research In his first tweets of 2019, Kanye West famously tweeted, “Trump all day…just so in 2019 you know where I stand”, alluding to his political association with the current administration of the United States government.</description>
+    </item>
+    
+    <item>
+      <title>FORM - Therapeutic foster care for unaccompanied minors and their foster families</title>
+      <link>https://alessionardin.eu/projects/formproject/</link>
+      <pubDate>Tue, 22 Mar 2022 15:32:52 +0100</pubDate>
+      
+      <guid>https://alessionardin.eu/projects/formproject/</guid>
+      <description>FORM is an EU project coordinated by the Veneto Region.</description>
+    </item>
+    
+    <item>
+      <title>Nexttoyou</title>
+      <link>https://alessionardin.eu/projects/nexttoyou/</link>
+      <pubDate>Tue, 22 Mar 2022 15:32:47 +0100</pubDate>
+      
+      <guid>https://alessionardin.eu/projects/nexttoyou/</guid>
+      <description>Next to You is an EU project coordinated by the Veneto Region, Social Services Directorate.</description>
+    </item>
+    
+    <item>
+      <title>Ensa -  European Network of Social Authorities</title>
+      <link>https://alessionardin.eu/projects/ensa/</link>
+      <pubDate>Tue, 22 Mar 2022 15:20:18 +0100</pubDate>
+      
+      <guid>https://alessionardin.eu/projects/ensa/</guid>
+      <description>ENSA is the web portal of the ENSA network, which hosts information of the network&amp;rsquo;s activities, projects and partners.
+I wrote this web application in python using the Django Framework. Since the launch of this portal (april 2021), it hosts the websites of three other projects Next To You, FORM and Cognition &amp;amp; Inclusion.</description>
+    </item>
+    
+    <item>
       <title>Artificial Intelligence as a General Purpose Technology: an exploratory analysis of PCT patents</title>
       <link>https://alessionardin.eu/projects/thesis/</link>
       <pubDate>Tue, 22 Mar 2022 12:56:00 +0100</pubDate>
@@ -22,7 +60,11 @@
       <pubDate>Tue, 22 Mar 2022 12:56:00 +0100</pubDate>
       
       <guid>https://alessionardin.eu/projects/rops/</guid>
-      <description></description>
+      <description>Rops is an R client which can be used to download and parse EPO data using the Open Patent Service.
+The package can be downloaded here
+Authentication process Accessing the OPS API requires applying for an account to obtain the consumer key and the consumer secret key. In order to register for the service, register at
+https://www.epo.org/searching-for-patents/data/web-services/ops.html.
+Then use the create_access_token function to retrieve an access token that is valid for 20 minutes and use it to make calls to the OPS API.</description>
     </item>
     
   </channel>

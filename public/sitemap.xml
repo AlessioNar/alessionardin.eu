@@ -3,8 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://alessionardin.eu/resume/</loc>
+    <lastmod>2022-03-22T16:37:36+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alessionardin.eu/</loc>
-    <lastmod>2022-03-22T12:56:00+01:00</lastmod>
+    <lastmod>2022-03-22T15:36:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alessionardin.eu/projects/twitter-celebrities-politicians/</loc>
+    <lastmod>2022-03-22T15:36:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alessionardin.eu/projects/formproject/</loc>
+    <lastmod>2022-03-22T15:32:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alessionardin.eu/projects/nexttoyou/</loc>
+    <lastmod>2022-03-22T15:32:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alessionardin.eu/projects/ensa/</loc>
+    <lastmod>2022-03-22T15:20:18+01:00</lastmod>
   </url>
   
   <url>
@@ -19,42 +44,7 @@
   
   <url>
     <loc>https://alessionardin.eu/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alessionardin.eu/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alessionardin.eu/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alessionardin.eu/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alessionardin.eu/resume/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alessionardin.eu/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alessionardin.eu/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alessionardin.eu/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
   </url>
   
   <url>
@@ -69,6 +59,11 @@
   
   <url>
     <loc>https://alessionardin.eu/categories/projects/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alessionardin.eu/tags/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
   </url>
   

@@ -10,3 +10,5 @@ of Invention. After a historical and conceptual introduction of the mechanics of
 of the institutions that regulate innovations (IPRs), the work focus on the impact of AI
 on innovation, both through a qualitative analysis of the different ways and in which AI can be deployed and
 through the deployment of traditional and new indicators to detect GPTs in patent data.
+
+The publication can be downloaded from [Ca' Foscari University open repository](http://dspace.unive.it/handle/10579/19003), while the code used to perform the analysis can be accessed in [my github profile](https://github.com/AlessioNar/MyThesis).

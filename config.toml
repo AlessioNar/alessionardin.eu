@@ -21,11 +21,16 @@ theme = "hugo-sustain"
 [params.social]
   Github        = "AlessioNar"
   Email         = "alessio.nardin@gmail.com"
-  LinkedIn      = "username"
-  Medium        = "username"
+  LinkedIn      = "alessio-nardin-236a2515a"
+  Medium        = "alessio.nardin"
 
 ## Main Menu
 
+[[menu.main]]
+  name = "home"
+  identifier = "home"
+  weight = 50
+  url = "/"
 [[menu.main]]
   name = "projects"
   identifier = "projects"
