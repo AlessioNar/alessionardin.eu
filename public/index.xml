@@ -6,7 +6,17 @@
     <description>Recent content on Alessio Nardin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 22 Mar 2022 15:36:49 +0100</lastBuildDate><atom:link href="https://alessionardin.eu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 17:07:44 +0100</lastBuildDate><atom:link href="https://alessionardin.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bookings App in go</title>
+      <link>https://alessionardin.eu/projects/bookings-app/</link>
+      <pubDate>Tue, 22 Mar 2022 17:07:44 +0100</pubDate>
+      
+      <guid>https://alessionardin.eu/projects/bookings-app/</guid>
+      <description>My first web application written in Go. The complete source code can be found in this repository
+ Built in Go version 1.17 Uses the chi router Uses alex edwards scs session management Uses nosurf  </description>
+    </item>
+    
     <item>
       <title>Curriculum Vitae</title>
       <link>https://alessionardin.eu/resume/</link>

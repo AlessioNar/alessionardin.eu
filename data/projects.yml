@@ -10,6 +10,11 @@ source:
     description: Full-stack development of the European Network of Social Authorities portal.
     url: /projects/ensa
 
+  - icon: fa fa-web
+    name: "A Bookings Web App in Go"
+    description: My first web application written in Go
+    url: /projects/bookings-app
+
   - icon: fa fa-life-ring
     name: Next To You
     description: Full-stack development of the Next To You project website.
