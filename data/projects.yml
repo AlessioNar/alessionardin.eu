@@ -1,0 +1,32 @@
+name: Projects
+source:
+
+  - icon: fa fa-github
+    name: Rops
+    description: An R client to download and parse EPO data using the Open Patent Service.
+    url: /projects/rops
+
+  - icon: fa fa-github
+    name: "Artificial Intelligence as a General Purpose Technology"
+    description: Quantitative analysis of PCT patents through the development of original innovation indicators.
+    url: /projects/thesis
+
+  - icon: fa fa-github
+    name: ENSA
+    description: Full-stack development of the European Network of Social Authorities.
+    url: /projects/ensa
+
+  - icon: fa fa-github
+    name: Next To You
+    description: Full-stack development of the Next To You project website.
+    url: /projects/nexttoyou
+
+  - icon: fa fa-github
+    name: FORM
+    description: Full-stack development of the FORM project website.
+    url: projects/form
+
+  - icon: fa fa-github
+    name: "The political reach of US Politicians and Celebrities on Twitter: who is the most influential?"
+    description: Course project aiming to compare the political influence of US politicians and celebrities.
+    url: projects/twitter-celebrities-politicians
