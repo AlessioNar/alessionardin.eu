@@ -10,7 +10,7 @@ source:
     description: Full-stack development of the European Network of Social Authorities portal.
     url: /projects/ensa
 
-  - icon: fa fa-web
+  - icon: fa fa-globe
     name: "A Bookings Web App in Go"
     description: My first web application written in Go
     url: /projects/bookings-app
