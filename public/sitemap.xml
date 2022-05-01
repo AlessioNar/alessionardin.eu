@@ -4,17 +4,22 @@
   
   <url>
     <loc>https://alessionardin.eu/</loc>
-    <lastmod>2022-03-22T17:07:44+01:00</lastmod>
+    <lastmod>2022-03-22T20:50:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alessionardin.eu/cv/curriculum-en/</loc>
+    <lastmod>2022-03-22T20:50:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alessionardin.eu/cv/</loc>
+    <lastmod>2022-03-22T20:50:40+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://alessionardin.eu/projects/bookings-app/</loc>
     <lastmod>2022-03-22T17:07:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alessionardin.eu/resume/</loc>
-    <lastmod>2022-03-22T16:37:36+01:00</lastmod>
   </url>
   
   <url>
@@ -70,6 +75,10 @@
   <url>
     <loc>https://alessionardin.eu/tags/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alessionardin.eu/projects/mapping-us-community/</loc>
   </url>
   
 </urlset>

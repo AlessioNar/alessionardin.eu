@@ -4,7 +4,7 @@ title = "Alessio Nardin"
 
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-theme = "hugo-sustain"
+theme = "white-professional"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
@@ -15,7 +15,7 @@ theme = "hugo-sustain"
   description = "Portfolio website"
 
   # Custom assets can be linked with their paths relative to static/
-  custom_css = []
+  custom_css = ["custom.css"]
   custom_js  = []
 
 [params.social]
@@ -37,7 +37,7 @@ theme = "hugo-sustain"
   weight = 100
   url = "/projects/"
 [[menu.main]]
-  name = "resume"
-  identifier = "resume"
+  name = "CV"
+  identifier = ""
   weight = 300
-  url = "/resume/"
+  url = "/cv/curriculum-en"

@@ -6,7 +6,17 @@
     <description>Recent content on Alessio Nardin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 22 Mar 2022 17:07:44 +0100</lastBuildDate><atom:link href="https://alessionardin.eu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 20:50:40 +0100</lastBuildDate><atom:link href="https://alessionardin.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>https://alessionardin.eu/cv/curriculum-en/</link>
+      <pubDate>Tue, 22 Mar 2022 20:50:40 +0100</pubDate>
+      
+      <guid>https://alessionardin.eu/cv/curriculum-en/</guid>
+      <description>Alessio Nardin  alessio[dot]nardin[at]gmail[dot]com | alessionardin.eu | Linkedin | Bruxelles, Belgium - Remote
+  Work Experience  Nov 2021 - Today Veneto Region - Policy Advisor  Monitoring and evaluation of EU policies and programmes for the digital transition (Data Spaces, AI, TEFs, Data Act, Data Governance Act, AI Act, EDIH, DMA, DSA) Project Manager assistant and full-stack development of websites associated with EU projects (FORM, Next To You, ENSA)      Apr 2021 - Sep 2021 Veneto Region - Communication Officer  Management and coordination of external communication activities (newsletters, monthly bullettin, CMS) Monitoring of EU policy changes of the MFF 2021-2027, with a particular focus on the EC digital policy Daily press review      Gen 2020 - Apr 2020 Veneto Region - Assistant to the Communication Officer   Daily press review Drafting and proofreading of articles to be inserted in monthly and weekly publications Draft of general communication material (leaflets, posters, presentations) Reporting on conferences, events, and webinars Monitoring of European policies, media coverage, and calls for proposals regarding space programs, the digital agenda, the Green New Deal, and innovation    Sep 2019 - Gen 2020 Ca&amp;rsquo;Foscari University - Academic Tutor of International Law   Teaching support for the 2019/20 course &amp;ldquo;Advanced International Law&amp;rdquo; held by Prof.</description>
+    </item>
+    
     <item>
       <title>Bookings App in go</title>
       <link>https://alessionardin.eu/projects/bookings-app/</link>
@@ -15,15 +25,6 @@
       <guid>https://alessionardin.eu/projects/bookings-app/</guid>
       <description>My first web application written in Go. The complete source code can be found in this repository
  Built in Go version 1.17 Uses the chi router Uses alex edwards scs session management Uses nosurf  </description>
-    </item>
-    
-    <item>
-      <title>Curriculum Vitae</title>
-      <link>https://alessionardin.eu/resume/</link>
-      <pubDate>Tue, 22 Mar 2022 16:37:36 +0100</pubDate>
-      
-      <guid>https://alessionardin.eu/resume/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -46,12 +47,14 @@ About our research In his first tweets of 2019, Kanye West famously tweeted, “
     </item>
     
     <item>
-      <title>Nexttoyou</title>
+      <title>Next to You</title>
       <link>https://alessionardin.eu/projects/nexttoyou/</link>
       <pubDate>Tue, 22 Mar 2022 15:32:47 +0100</pubDate>
       
       <guid>https://alessionardin.eu/projects/nexttoyou/</guid>
-      <description>Next to You is an EU project coordinated by the Veneto Region, Social Services Directorate.</description>
+      <description>While I was working at the Veneto Region, I was part of the Next to You project, which supports the integration of minors and young adults victims of human trafficking during their migration journey towards the European Union.
+My role in the project involved:
+ participating to transnational meetings agreeing on a common brand image of the project developing and updating the project website according to the project&amp;rsquo;s needs  I started cooperating on the project on 22 mar 2021 and the project is planned to close in november.</description>
     </item>
     
     <item>
@@ -84,6 +87,15 @@ The package can be downloaded here
 Authentication process Accessing the OPS API requires applying for an account to obtain the consumer key and the consumer secret key. In order to register for the service, register at
 https://www.epo.org/searching-for-patents/data/web-services/ops.html.
 Then use the create_access_token function to retrieve an access token that is valid for 20 minutes and use it to make calls to the OPS API.</description>
+    </item>
+    
+    <item>
+      <title>Contact Me</title>
+      <link>https://alessionardin.eu/projects/mapping-us-community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alessionardin.eu/projects/mapping-us-community/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <!-- Header -->
+  {{ partial "header" . }}
+  <div class="container">
+    <section id="projects">
+      <h2 class="my-5">{{ .Site.Data.projects.name }}</h2>
+      <div class="panel">
+        <div class="panel-body">
+          {{ range $el := .Site.Data.projects.source }}
+
+            <h3>
+              <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+              <b><a href="{{ .url }}">{{ $el.name }}</a></b>&nbsp;-&nbsp;{{ $el.description }}
+            </h3>
+            <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight" style="background-color: #E3963E;   border: none;">{{$el.tag}}</button>
+            <small>{{$el.start_date}} - {{$el.end_date}}</small>
+            <div class="mb-4 pb-2">
+
+              </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  </div>
+{{ end }}

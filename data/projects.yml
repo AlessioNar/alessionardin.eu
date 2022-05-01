@@ -2,36 +2,59 @@ name: Projects
 source:
   - icon: fa fa-book
     name: "Artificial Intelligence as a General Purpose Technology"
-    description: Quantitative analysis of PCT patents through the development of original innovation indicators.
+    description: Quantitative analysis of PCT patents regarding AI technologies
+    tag: publication
     url: /projects/thesis
+    start_date: 2020
+    end_date: 2021
 
   - icon: fa-solid fa-code
     name: ENSA
     description: Full-stack development of the European Network of Social Authorities portal.
+    tag: web-development
     url: /projects/ensa
+    start_date: 2021
+    end_date: Ongoing
 
   - icon: fa fa-globe
     name: "A Bookings Web App in Go"
     description: My first web application written in Go
+    tag: web-development
     url: /projects/bookings-app
+    start_date: 2022
+    end_date: 2022
+
 
   - icon: fa fa-life-ring
     name: Next To You
     description: Full-stack development of the Next To You project website.
+    tag: web-development
     url: /projects/nexttoyou
+    start_date: 2021
+    end_date: Ongoing
+
 
   - icon: fa fa-child
     name: FORM
     description: Full-stack development of the FORM project website.
+    tag: web-development
     url: /projects/formproject
+    start_date: 2022
+    end_date: Ongoing
+
 
   - icon: fa fa-asterisk
     name: Rops
     description: An R client to download and parse EPO data using the Open Patent Service.
+    tag: data-mining
     url: /projects/rops
-
+    start_date: 2020
+    end_date: 2020
 
   - icon: fa fa-twitter
     name: "The political reach of US Politicians and Celebrities on Twitter: who is the most influential?"
     description: Course project aiming to compare the political influence of US politicians and celebrities.
+    tag: computational-social-sciences
     url: /projects/twitter-celebrities-politicians
+    start_date: 2019
+    end_date: 2019

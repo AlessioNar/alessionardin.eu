@@ -1,0 +1,22 @@
+{
+  "name": "alessionardin.eu",
+  "version": "1.0.0",
+  "description": "scss styling for personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlessioNar/alessionardin.eu.git"
+  },
+  "author": "AlessioNar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlessioNar/alessionardin.eu/issues"
+  },
+  "homepage": "https://github.com/AlessioNar/alessionardin.eu#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

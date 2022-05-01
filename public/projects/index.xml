@@ -37,12 +37,14 @@ About our research In his first tweets of 2019, Kanye West famously tweeted, “
     </item>
     
     <item>
-      <title>Nexttoyou</title>
+      <title>Next to You</title>
       <link>https://alessionardin.eu/projects/nexttoyou/</link>
       <pubDate>Tue, 22 Mar 2022 15:32:47 +0100</pubDate>
       
       <guid>https://alessionardin.eu/projects/nexttoyou/</guid>
-      <description>Next to You is an EU project coordinated by the Veneto Region, Social Services Directorate.</description>
+      <description>While I was working at the Veneto Region, I was part of the Next to You project, which supports the integration of minors and young adults victims of human trafficking during their migration journey towards the European Union.
+My role in the project involved:
+ participating to transnational meetings agreeing on a common brand image of the project developing and updating the project website according to the project&amp;rsquo;s needs  I started cooperating on the project on 22 mar 2021 and the project is planned to close in november.</description>
     </item>
     
     <item>
@@ -75,6 +77,15 @@ The package can be downloaded here
 Authentication process Accessing the OPS API requires applying for an account to obtain the consumer key and the consumer secret key. In order to register for the service, register at
 https://www.epo.org/searching-for-patents/data/web-services/ops.html.
 Then use the create_access_token function to retrieve an access token that is valid for 20 minutes and use it to make calls to the OPS API.</description>
+    </item>
+    
+    <item>
+      <title>Contact Me</title>
+      <link>https://alessionardin.eu/projects/mapping-us-community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alessionardin.eu/projects/mapping-us-community/</guid>
+      <description></description>
     </item>
     
   </channel>
