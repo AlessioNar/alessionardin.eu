@@ -4,7 +4,7 @@ source:
     name: "Artificial Intelligence as a General Purpose Technology"
     description: Quantitative analysis of PCT patents regarding AI technologies
     tag: publication
-    url: /projects/thesis
+    url: https://ms-thesis.alessionardin.eu
     start_date: 2020
     end_date: 2021
 
@@ -12,7 +12,7 @@ source:
     name: ENSA
     description: Full-stack development of the European Network of Social Authorities portal.
     tag: web-development
-    url: /projects/ensa
+    url: https://www.ensa-network.eu
     start_date: 2021
     end_date: Ongoing
 
@@ -29,7 +29,7 @@ source:
     name: Next To You
     description: Full-stack development of the Next To You project website.
     tag: web-development
-    url: /projects/nexttoyou
+    url: https://www.ensa-network.eu/nexttoyou
     start_date: 2021
     end_date: Ongoing
 
@@ -38,7 +38,7 @@ source:
     name: FORM
     description: Full-stack development of the FORM project website.
     tag: web-development
-    url: /projects/formproject
+    url: https://www.ensa-network.eu/formproject
     start_date: 2022
     end_date: Ongoing
 
@@ -47,9 +47,17 @@ source:
     name: Rops
     description: An R client to download and parse EPO data using the Open Patent Service.
     tag: data-mining
-    url: /projects/rops
+    url: https://github.com/AlessioNar/rops
     start_date: 2020
     end_date: 2020
+
+  - icon: fa fa-twitter
+    name: "Mapping the US political Network"
+    description: This book is a compilation of exercises I made along the years to develop my skills in css, evidence-based policymaking, and data journalism.
+    tag: computational-social-sciences, data-journalism, policymaking
+    url: https://mapping-us.alessionardin.eu
+    start_date: 2019
+    end_date: 2022
 
   - icon: fa fa-twitter
     name: "The political reach of US Politicians and Celebrities on Twitter: who is the most influential?"

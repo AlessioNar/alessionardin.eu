@@ -1,0 +1,10 @@
+name: Collections
+source:
+  - icon: fa fa-book
+    name: "Computational Social Science Exercises"
+    description:
+      Computational Social Science is a growing field. In recent times, different organizations, such as public administrations, NGOs, think-thanks, universities and social movements have implemented computational methods to identify, analyse and implement public policies based on data coming from various sources.
+      However, the production of educational material in this field has often suffered by a lack of organizaion and coordination, also because these methods have been implemented separately across several fields. In this context, the student interested in applying computational methods to its field of interest often found itself in front of enormous amounts of content contingentally relevant to its interest.
+      This book want to present itself as a series of examples using standardized datasets to answer CSS problems in the field of politics, government, economy, and society. The aim is to provide the reader with guided projects exploring different applications of computational methods using open source solutions.
+
+    tag: publication
