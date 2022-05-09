@@ -6,17 +6,18 @@ title = "Alessio Nardin"
 googleAnalytics = ""
 theme = "white-professional"
 
+# Meta tags
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
 [params]
   avatar = "img/profile.jpeg"
   author = "Alessio Nardin"
-  description = "Portfolio website"
+  description = "Alessio Nardin personal website. Curriculum, projects, research"
 
   # Custom assets can be linked with their paths relative to static/
-  custom_css = ["custom.css"]
-  custom_js  = []
+  custom_css = ["css/custom.css"]
+  custom_js  = ["js/projects.js"]
 
 [params.social]
   Github        = "AlessioNar"
@@ -26,11 +27,6 @@ theme = "white-professional"
 
 ## Main Menu
 
-[[menu.main]]
-  name = "home"
-  identifier = "home"
-  weight = 50
-  url = "/"
 [[menu.main]]
   name = "projects"
   identifier = "projects"

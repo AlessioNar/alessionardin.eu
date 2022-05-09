@@ -4,3 +4,31 @@
 .home-container{
   float: text-center;
 }
+
+.toggle-content {
+	display: none;
+}
+
+.is-visible {
+	display: block;
+}
+div.toggle-content.is-visible {
+	display: block;
+}
+
+@media (max-width:2075.98px){
+  .avatar{
+    width:50%;
+  }
+}
+
+@media (max-width:1275.98px){
+  .avatar{
+    width:70%;
+  }
+}
+@media (max-width: 575.98px) {
+  .avatar{
+    width:100%;
+  }
+}

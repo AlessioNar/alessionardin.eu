@@ -1,25 +1,85 @@
 {{ define "main" }}
-  <!-- Header -->
-  {{ partial "header" . }}
-  <div class="container">
-    <section id="projects">
-      <h2 class="my-5">{{ .Site.Data.projects.name }}</h2>
-      <div class="panel">
-        <div class="panel-body">
+<!-- Header -->
+{{ partial "header" . }}
+<div class="container">
+  <section id="projects mx-4 px-3">
+
+    <h2 class="my-5 text-center">{{ .Site.Data.projects.name }}</h2>
+    <div class="panel">
+      <div class="panel-body">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" id="all">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="data-science">Data Science</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="policy">Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="web-development">Web Development</a>
+          </li>
+        </ul>
+        <div class="row">
           {{ range $el := .Site.Data.projects.source }}
 
-            <h3>
-              <i class="{{ .icon }}"></i>&nbsp;&nbsp;
-              <b><a href="{{ .url }}">{{ $el.name }}</a></b>&nbsp;-&nbsp;{{ $el.description }}
-            </h3>
-            <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight" style="background-color: #E3963E;   border: none;">{{$el.tag}}</button>
-            <small>{{$el.start_date}} - {{$el.end_date}}</small>
-            <div class="mb-4 pb-2">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content is-visible{{range $tag := $el.tags}} {{$tag}}{{end}}">
+            <div class="card my-4">
+              <div class="card-header">
+                {{ $el.name }}
               </div>
+              <div class="card-body">
+                <h5 class="card-title">{{ $el.description }}</h5>
+                <p>Duration: {{$el.start_date}} - {{$el.end_date}}</p>
+                <p><a href="{{ .url }}" class="btn-primary-overlay">See project</a></p>
+                {{ range $tag := $el.tags }}
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">{{$tag}}</button>
+                {{end}}
+              </div>
+            </div>
+          </div>
           {{ end }}
         </div>
+
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+</div>
+{{ end }}
+
+
+{{define "js"}}
+<script>
+  document.getElementById("all").addEventListener("click", function() {
+    elements = document.getElementsByClassName("toggle-content");
+    for element in elements{
+      if ("is-visible" in element.classList) {
+        pass
+      } else {
+        show(element);
+      }
+  }
+  });
+
+  document.getElementById("research").addEventListener("click", function() {
+    elements = document.getElementsByClassName("research");
+    show(elements);
+  });
+  document.getElementById("data-science").addEventListener("click", function() {
+    elements = document.getElementsByClassName("data-science");
+    show(elements);
+  });
+  document.getElementById("policy").addEventListener("click", function() {
+    elements = document.getElementsByClassName("policy");
+    show(elements);
+  });
+  document.getElementById("web-development").addEventListener("click", function() {
+    elements = document.getElementsByClassName("web-development");
+    show(elements);
+  });
+</script>
 {{ end }}

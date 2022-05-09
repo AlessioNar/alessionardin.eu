@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    
+    <title>Projects | Alessio Nardin</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://alessionardin.eu/img/favicon.ico">
+
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Alessio Nardin">
-    <link rel="shortcut icon" type="image/x-icon" href="https://alessionardin.eu/img/favicon.ico">
-    <title>Projects | Alessio Nardin</title>
-    <meta name="description" content="Portfolio website">
+    <meta name="description" content="Alessio Nardin personal website. Curriculum, projects, research">
+    <meta name="robots" content="index, follow">
+
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     
     <link rel="preload stylesheet" href="/css/main.min.css" as="style">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old">
     
-      <link rel="stylesheet" href="https://alessionardin.eu/custom.css">
+      <link rel="stylesheet" href="https://alessionardin.eu/css/custom.css">
+
+    
 
     
     <!--[if lt IE 9]>
@@ -25,12 +33,12 @@
   <body>
 
     <div id="content">
-  
-  <div class="container mb-3">
+
+<div class="container mb-3">
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="https://alessionardin.eu/">
-        <i class="fa fa-home"></i>
+        <small>HOME</small>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar">
         <i class="fa fa-bars"></i>
@@ -39,10 +47,6 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           
-            
-              <li class="nav-item">
-                <li><a class="nav-link" href="/">HOME</a></li>
-              </li>
             
               <li class="nav-item">
                 <li><a class="nav-link" href="/projects/">PROJECTS</a></li>
@@ -56,107 +60,183 @@
         </ul>
       </div>
     </div>
+    </nav>
   </div>
-</nav>
 
-  <div class="container">
-    <section id="projects">
-      <h2 class="my-5">Projects</h2>
-      <div class="panel">
-        <div class="panel-body">
+<div class="container">
+  <section id="projects mx-4 px-3">
+
+    <h2 class="my-5 text-center">Projects</h2>
+    <div class="panel">
+      <div class="panel-body">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" id="research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="data-science">Data Science</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="policy">Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="web-development">Web Development</a>
+          </li>
+        </ul>
+        <div class="row">
           
 
-            <h3>
-              <i class="fa fa-book"></i>&nbsp;&nbsp;
-              <b><a href="https://ms-thesis.alessionardin.eu">Artificial Intelligence as a General Purpose Technology</a></b>&nbsp;-&nbsp;Quantitative analysis of PCT patents regarding AI technologies
-            </h3>
-            <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight" style="background-color: #E3963E;   border: none;">publication</button>
-            <small>2020 - 2021</small>
-            <div class="mb-4 pb-2">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content research">
+            <div class="card my-4">
+              <div class="card-header">
+                Artificial Intelligence as a General Purpose Technology
               </div>
+              <div class="card-body">
+                <h5 class="card-title">Quantitative analysis of PCT patents regarding AI technologies</h5>
+                <p>Duration: 2020 - 2021</p>
+                <p><a href="https://ms-thesis.alessionardin.eu" class="btn-primary-overlay">See project</a></p>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">research</button>
+                
+              </div>
+            </div>
+          </div>
           
 
-            <h3>
-              <i class="fa-solid fa-code"></i>&nbsp;&nbsp;
-              <b><a href="https://www.ensa-network.eu">ENSA</a></b>&nbsp;-&nbsp;Full-stack development of the European Network of Social Authorities portal.
-            </h3>
-            <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight" style="background-color: #E3963E;   border: none;">web-development</button>
-            <small>2021 - Ongoing</small>
-            <div class="mb-4 pb-2">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content web-development policy">
+            <div class="card my-4">
+              <div class="card-header">
+                ENSA
               </div>
+              <div class="card-body">
+                <h5 class="card-title">Full-stack development of the European Network of Social Authorities portal.</h5>
+                <p>Duration: 2021 - Ongoing</p>
+                <p><a href="https://www.ensa-network.eu" class="btn-primary-overlay">See project</a></p>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">web-development</button>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">policy</button>
+                
+              </div>
+            </div>
+          </div>
           
 
-            <h3>
-              <i class="fa fa-globe"></i>&nbsp;&nbsp;
-              <b><a href="/projects/bookings-app">A Bookings Web App in Go</a></b>&nbsp;-&nbsp;My first web application written in Go
-            </h3>
-            <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight" style="background-color: #E3963E;   border: none;">web-development</button>
-            <small>2022 - 2022</small>
-            <div class="mb-4 pb-2">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content web-development policy">
+            <div class="card my-4">
+              <div class="card-header">
+                A Bookings Web App in Go
               </div>
+              <div class="card-body">
+                <h5 class="card-title">My first web application written in Go</h5>
+                <p>Duration: 2022 - 2022</p>
+                <p><a href="/projects/bookings-app" class="btn-primary-overlay">See project</a></p>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">web-development</button>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">policy</button>
+                
+              </div>
+            </div>
+          </div>
           
 
-            <h3>
-              <i class="fa fa-life-ring"></i>&nbsp;&nbsp;
-              <b><a href="https://www.ensa-network.eu/nexttoyou">Next To You</a></b>&nbsp;-&nbsp;Full-stack development of the Next To You project website.
-            </h3>
-            <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight" style="background-color: #E3963E;   border: none;">web-development</button>
-            <small>2021 - Ongoing</small>
-            <div class="mb-4 pb-2">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content web-development policy">
+            <div class="card my-4">
+              <div class="card-header">
+                Next To You
               </div>
+              <div class="card-body">
+                <h5 class="card-title">Full-stack development of the Next To You project website.</h5>
+                <p>Duration: 2021 - Ongoing</p>
+                <p><a href="https://www.ensa-network.eu/nexttoyou" class="btn-primary-overlay">See project</a></p>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">web-development</button>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">policy</button>
+                
+              </div>
+            </div>
+          </div>
           
 
-            <h3>
-              <i class="fa fa-child"></i>&nbsp;&nbsp;
-              <b><a href="https://www.ensa-network.eu/formproject">FORM</a></b>&nbsp;-&nbsp;Full-stack development of the FORM project website.
-            </h3>
-            <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight" style="background-color: #E3963E;   border: none;">web-development</button>
-            <small>2022 - Ongoing</small>
-            <div class="mb-4 pb-2">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content web-development policy">
+            <div class="card my-4">
+              <div class="card-header">
+                FORM
               </div>
+              <div class="card-body">
+                <h5 class="card-title">Full-stack development of the FORM project website.</h5>
+                <p>Duration: 2022 - Ongoing</p>
+                <p><a href="https://www.ensa-network.eu/formproject" class="btn-primary-overlay">See project</a></p>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">web-development</button>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">policy</button>
+                
+              </div>
+            </div>
+          </div>
           
 
-            <h3>
-              <i class="fa fa-asterisk"></i>&nbsp;&nbsp;
-              <b><a href="https://github.com/AlessioNar/rops">Rops</a></b>&nbsp;-&nbsp;An R client to download and parse EPO data using the Open Patent Service.
-            </h3>
-            <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight" style="background-color: #E3963E;   border: none;">data-mining</button>
-            <small>2020 - 2020</small>
-            <div class="mb-4 pb-2">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content data-science">
+            <div class="card my-4">
+              <div class="card-header">
+                Rops
               </div>
+              <div class="card-body">
+                <h5 class="card-title">An R client to download and parse EPO data using the Open Patent Service.</h5>
+                <p>Duration: 2020 - 2020</p>
+                <p><a href="https://github.com/AlessioNar/rops" class="btn-primary-overlay">See project</a></p>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">data-science</button>
+                
+              </div>
+            </div>
+          </div>
           
 
-            <h3>
-              <i class="fa fa-twitter"></i>&nbsp;&nbsp;
-              <b><a href="https://mapping-us.alessionardin.eu">Mapping the US political Network</a></b>&nbsp;-&nbsp;This book is a compilation of exercises I made along the years to develop my skills in css, evidence-based policymaking, and data journalism.
-            </h3>
-            <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight" style="background-color: #E3963E;   border: none;">computational-social-sciences, data-journalism, policymaking</button>
-            <small>2019 - 2022</small>
-            <div class="mb-4 pb-2">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content research data-science policy">
+            <div class="card my-4">
+              <div class="card-header">
+                Mapping the US political Network
               </div>
+              <div class="card-body">
+                <h5 class="card-title">This book is a compilation of exercises I made along the years to develop my skills in css, evidence-based policymaking, and data journalism.</h5>
+                <p>Duration: 2019 - 2022</p>
+                <p><a href="https://mapping-us.alessionardin.eu" class="btn-primary-overlay">See project</a></p>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">research</button>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">data-science</button>
+                
+                <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight my-1 " style="background-color: #E3963E;   border: none;">policy</button>
+                
+              </div>
+            </div>
+          </div>
           
 
-            <h3>
-              <i class="fa fa-twitter"></i>&nbsp;&nbsp;
-              <b><a href="/projects/twitter-celebrities-politicians">The political reach of US Politicians and Celebrities on Twitter: who is the most influential?</a></b>&nbsp;-&nbsp;Course project aiming to compare the political influence of US politicians and celebrities.
-            </h3>
-            <button class="btn btn-primary btn-sm d-flex flex-row-reverse bd-highlight" style="background-color: #E3963E;   border: none;">computational-social-sciences</button>
-            <small>2019 - 2019</small>
-            <div class="mb-4 pb-2">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content">
+            <div class="card my-4">
+              <div class="card-header">
+                The political reach of US Politicians and Celebrities on Twitter: who is the most influential?
               </div>
+              <div class="card-body">
+                <h5 class="card-title">Course project aiming to compare the political influence of US politicians and celebrities.</h5>
+                <p>Duration: 2019 - 2019</p>
+                <p><a href="/projects/twitter-celebrities-politicians" class="btn-primary-overlay">See project</a></p>
+                
+              </div>
+            </div>
+          </div>
           
         </div>
+
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+</div>
 
     </div>
     
@@ -167,7 +247,28 @@
 </footer>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script><script src="https://alessionardin.eu/js/projects.js"></script>
+
+
+    
+<script>
+  document.getElementById("research").addEventListener("click", function() {
+    elements = document.getElementsByClassName("research");
+    show(elements);
+  });
+  document.getElementById("data-science").addEventListener("click", function() {
+    elements = document.getElementsByClassName("data-science");
+    show(elements);
+  });
+  document.getElementById("policy").addEventListener("click", function() {
+    elements = document.getElementsByClassName("policy");
+    show(elements);
+  });
+  document.getElementById("web-development").addEventListener("click", function() {
+    elements = document.getElementsByClassName("web-development");
+    show(elements);
+  });
+</script>
 
   </body>
 </html>

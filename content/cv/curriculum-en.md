@@ -1,13 +1,11 @@
 ---
-title: "Curriculum Vitae"
+title: "Alessio Nardin - Curriculum Vitae"
 date: 2022-03-22T20:50:40+01:00
 draft: false
 ---
 
-# Alessio Nardin
-
-> alessio[dot]nardin[at]gmail[dot]com \|
-> [alessionardin.eu](https://alessionardin.eu) \|
+> alessio.nardin@gmail.com \|
+> alessio.nardin@regione.veneto.it \|
 > [Linkedin](https://www.linkedin.com/in/alessio-nardin-236a2515a/) \|
 > Bruxelles, Belgium - Remote
 

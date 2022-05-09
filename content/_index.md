@@ -9,11 +9,12 @@ Have a look at some of my [projects]
 
 For more information, check out my [resume].
 
-Contact me by [email].
+Contact me on [linkedin] or by [email]!
 
 
 
 [projects]: /projects
 [resume]: /cv/curriculum-en
 [email]: mailto:alessio.nardin@gmail.com
+[linkedin]: https://www.linkedin.com/in/alessio-nardin-236a2515a/
 [Medium]: https://medium.com/@alessio.nardin
