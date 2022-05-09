@@ -3,7 +3,9 @@ source:
 
   - icon: fa fa-twitter
     name: "Mapping the US political Network"
-    description: This book is a compilation of exercises I made along the years to develop my skills in css, evidence-based policymaking, and data journalism.
+    description: |
+                  An exercise to showcase some techniques to analyze social phenomena using Twitter data.
+                  The objective of this study is to map the structure of the social network of the US political community on Twitter and detect relationships.
     tags:
       - research
       - data-science
@@ -24,10 +26,9 @@ source:
 
   - icon: fa fa-globe
     name: "A Bookings Web App in Go"
-    description: My first web application written in Go
+    description: An example web application to manage reservations entirely written in Golang
     tags:
       - web-development
-      - policy
     url: /projects/bookings-app
     start_date: 2022
     end_date: 2022
