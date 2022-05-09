@@ -1,5 +1,47 @@
 name: Projects
 source:
+
+  - icon: fa fa-twitter
+    name: "Mapping the US political Network"
+    description: This book is a compilation of exercises I made along the years to develop my skills in css, evidence-based policymaking, and data journalism.
+    tags:
+      - research
+      - data-science
+      - policy
+    url: https://mapping-us.alessionardin.eu
+    start_date: 2019
+    end_date: 2022
+
+  - icon: fa fa-child
+    name: FORM
+    description: Full-stack development of the FORM project website.
+    tags:
+      - web-development
+      - policy
+    url: https://www.ensa-network.eu/formproject
+    start_date: 2022
+    end_date: Ongoing
+
+  - icon: fa fa-globe
+    name: "A Bookings Web App in Go"
+    description: My first web application written in Go
+    tags:
+      - web-development
+      - policy
+    url: /projects/bookings-app
+    start_date: 2022
+    end_date: 2022
+
+  - icon: fa fa-life-ring
+    name: Next To You
+    description: Full-stack development of the Next To You project website.
+    tags:
+      - web-development
+      - policy
+    url: https://www.ensa-network.eu/nexttoyou
+    start_date: 2021
+    end_date: Ongoing
+
   - icon: fa fa-book
     name: "Artificial Intelligence as a General Purpose Technology"
     description: Quantitative analysis of PCT patents regarding AI technologies
@@ -19,39 +61,6 @@ source:
     start_date: 2021
     end_date: Ongoing
 
-  - icon: fa fa-globe
-    name: "A Bookings Web App in Go"
-    description: My first web application written in Go
-    tags:
-      - web-development
-      - policy
-    url: /projects/bookings-app
-    start_date: 2022
-    end_date: 2022
-
-
-  - icon: fa fa-life-ring
-    name: Next To You
-    description: Full-stack development of the Next To You project website.
-    tags:
-      - web-development
-      - policy
-    url: https://www.ensa-network.eu/nexttoyou
-    start_date: 2021
-    end_date: Ongoing
-
-
-  - icon: fa fa-child
-    name: FORM
-    description: Full-stack development of the FORM project website.
-    tags:
-      - web-development
-      - policy
-    url: https://www.ensa-network.eu/formproject
-    start_date: 2022
-    end_date: Ongoing
-
-
   - icon: fa fa-asterisk
     name: Rops
     description: An R client to download and parse EPO data using the Open Patent Service.
@@ -62,20 +71,9 @@ source:
     end_date: 2020
 
   - icon: fa fa-twitter
-    name: "Mapping the US political Network"
-    description: This book is a compilation of exercises I made along the years to develop my skills in css, evidence-based policymaking, and data journalism.
-    tags:
-      - research
-      - data-science
-      - policy
-    url: https://mapping-us.alessionardin.eu
-    start_date: 2019
-    end_date: 2022
-
-  - icon: fa fa-twitter
     name: "The political reach of US Politicians and Celebrities on Twitter: who is the most influential?"
     description: Course project aiming to compare the political influence of US politicians and celebrities.
-    tag:
+    tags:
       - policy
       - data-science
       - research

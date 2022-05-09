@@ -71,6 +71,9 @@
       <div class="panel-body">
         <ul class="nav justify-content-center">
           <li class="nav-item">
+            <a class="nav-link" id="all" href="#">All</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" id="research">Research</a>
           </li>
           <li class="nav-item">
@@ -86,7 +89,7 @@
         <div class="row">
           
 
-          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content research">
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content is-visible research">
             <div class="card my-4">
               <div class="card-header">
                 Artificial Intelligence as a General Purpose Technology
@@ -103,7 +106,7 @@
           </div>
           
 
-          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content web-development policy">
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content is-visible web-development policy">
             <div class="card my-4">
               <div class="card-header">
                 ENSA
@@ -122,7 +125,7 @@
           </div>
           
 
-          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content web-development policy">
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content is-visible web-development policy">
             <div class="card my-4">
               <div class="card-header">
                 A Bookings Web App in Go
@@ -141,7 +144,7 @@
           </div>
           
 
-          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content web-development policy">
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content is-visible web-development policy">
             <div class="card my-4">
               <div class="card-header">
                 Next To You
@@ -160,7 +163,7 @@
           </div>
           
 
-          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content web-development policy">
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content is-visible web-development policy">
             <div class="card my-4">
               <div class="card-header">
                 FORM
@@ -179,7 +182,7 @@
           </div>
           
 
-          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content data-science">
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content is-visible data-science">
             <div class="card my-4">
               <div class="card-header">
                 Rops
@@ -196,7 +199,7 @@
           </div>
           
 
-          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content research data-science policy">
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content is-visible research data-science policy">
             <div class="card my-4">
               <div class="card-header">
                 Mapping the US political Network
@@ -217,7 +220,7 @@
           </div>
           
 
-          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content">
+          <div class="col-lg-4 col-md-6 col-sm-12 toggle-content is-visible">
             <div class="card my-4">
               <div class="card-header">
                 The political reach of US Politicians and Celebrities on Twitter: who is the most influential?
@@ -252,21 +255,22 @@
 
     
 <script>
-  document.getElementById("research").addEventListener("click", function() {
+  
+  document.getElementById("all").addEventListener("click", function() {
+    elements = document.getElementsByClassName("toggle-content");
+    show(elements);
+  });
+
+  
+  document.getElementsByClassName("tags").addEventListener("click", function() {
+
     elements = document.getElementsByClassName("research");
-    show(elements);
-  });
-  document.getElementById("data-science").addEventListener("click", function() {
-    elements = document.getElementsByClassName("data-science");
-    show(elements);
-  });
-  document.getElementById("policy").addEventListener("click", function() {
-    elements = document.getElementsByClassName("policy");
-    show(elements);
-  });
-  document.getElementById("web-development").addEventListener("click", function() {
-    elements = document.getElementsByClassName("web-development");
-    show(elements);
+    
+    
+
+    
+    
+    
   });
 </script>
 

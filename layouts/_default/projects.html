@@ -9,18 +9,18 @@
       <div class="panel-body">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link" id="all">All</a>
+            <a class="nav-link" id="all" href="#">All</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="research">Research</a>
+            <a class="nav-link tag" id="research">Research</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item tag">
             <a class="nav-link" id="data-science">Data Science</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item tag">
             <a class="nav-link" id="policy">Policy</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item tag">
             <a class="nav-link" id="web-development">Web Development</a>
           </li>
         </ul>
@@ -54,32 +54,22 @@
 
 {{define "js"}}
 <script>
+  // General case, show all
   document.getElementById("all").addEventListener("click", function() {
     elements = document.getElementsByClassName("toggle-content");
-    for element in elements{
-      if ("is-visible" in element.classList) {
-        pass
-      } else {
-        show(element);
-      }
-  }
+    showALl(elements);
   });
 
-  document.getElementById("research").addEventListener("click", function() {
+  // Show only selected
+  document.getElementsByClassName("tags").addEventListener("click", function() {
+
     elements = document.getElementsByClassName("research");
-    show(elements);
-  });
-  document.getElementById("data-science").addEventListener("click", function() {
-    elements = document.getElementsByClassName("data-science");
-    show(elements);
-  });
-  document.getElementById("policy").addEventListener("click", function() {
-    elements = document.getElementsByClassName("policy");
-    show(elements);
-  });
-  document.getElementById("web-development").addEventListener("click", function() {
-    elements = document.getElementsByClassName("web-development");
-    show(elements);
+    // for each element
+    // if has research and already visible, do nothing
+
+    // if not research and visible, hide
+    // if research and invisible, show
+    // if not research and invisible, do nothing
   });
 </script>
 {{ end }}

@@ -1,7 +1,7 @@
 // Show an element
-var show = function (elem) {
+var showAll = function (elements) {
 	for (let i = 0; i < elements.length; i++) {
-	  elements[i].classList.toggle('is-visible');
+	  elements[i].classList.add('is-visible');
 	};
 };
 
