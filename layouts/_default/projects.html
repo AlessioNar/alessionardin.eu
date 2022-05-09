@@ -12,16 +12,16 @@
             <a class="nav-link" id="all" href="#">All</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link tag" id="research">Research</a>
+            <a class="nav-link tag" id="research" href="#">Research</a>
           </li>
           <li class="nav-item tag">
-            <a class="nav-link" id="data-science">Data Science</a>
+            <a class="nav-link" id="data-science" href="#">Data Science</a>
           </li>
           <li class="nav-item tag">
-            <a class="nav-link" id="policy">Policy</a>
+            <a class="nav-link" id="policy" href="#">Policy</a>
           </li>
           <li class="nav-item tag">
-            <a class="nav-link" id="web-development">Web Development</a>
+            <a class="nav-link" id="web-development" href="#">Web Development</a>
           </li>
         </ul>
         <div class="row">
@@ -57,19 +57,15 @@
   // General case, show all
   document.getElementById("all").addEventListener("click", function() {
     elements = document.getElementsByClassName("toggle-content");
-    showALl(elements);
+    showAll(elements);
   });
+
 
   // Show only selected
-  document.getElementsByClassName("tags").addEventListener("click", function() {
+  filterTags('research');
+  filterTags('policy');
+  filterTags('web-development');
+  filterTags('data-science');
 
-    elements = document.getElementsByClassName("research");
-    // for each element
-    // if has research and already visible, do nothing
-
-    // if not research and visible, hide
-    // if research and invisible, show
-    // if not research and invisible, do nothing
-  });
 </script>
 {{ end }}

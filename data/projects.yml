@@ -47,6 +47,8 @@ source:
     description: Quantitative analysis of PCT patents regarding AI technologies
     tags:
       - research
+      - data-science
+      - policy
     url: https://ms-thesis.alessionardin.eu
     start_date: 2020
     end_date: 2021
